@@ -1,16 +1,13 @@
 from django.shortcuts import render
-import os
-# Create your views here.
-import os
-
-GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
-
-
-
+from dotenv import load_dotenv
 import google.generativeai as genai
+import os
+
+# Load the .env file into environment variables
+load_dotenv()
+GOOGLE_API_KEY=os.getenv("GOOGLE_API_KEY")
 
 genai.configure(api_key=GOOGLE_API_KEY)
-
 
 model = genai.GenerativeModel("models/gemini-2.5-flash")
 

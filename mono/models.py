@@ -11,4 +11,4 @@ class UserIds(models.Model):
 
     def __str__(self):
 
-        return self.bank
+        return self.user.username + " " +  self.bank
