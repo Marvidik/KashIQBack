@@ -11,16 +11,23 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
+from dotenv import load_dotenv
+import os
+
+# Load the .env file into environment variables
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
+FERNET_KEY = os.getenv("ENCRYPTIONKEY")  
+
+
+
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-*tcm$v4o*d7bz#f_yx=e2swv3ij!&e22c)ioxl4(%*l%on!*y6'
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -41,6 +48,8 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'authe',
     'mono',
+    'users',
+    'personalization',
     'corsheaders',
 ]
 

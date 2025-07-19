@@ -6,9 +6,9 @@ from rest_framework.decorators import api_view, authentication_classes, permissi
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
-from .models import UserIds
+from .models import Account
 from rest_framework import status
-from .utils import fetch_and_save_bank_name,run_async_bank_fetch
+from .utils import fetch_and_save_bank_name,run_async_bank_fetch,run_async_details_fetch
 from dotenv import load_dotenv
 import os
 
@@ -37,12 +37,8 @@ def exchange_code(request):
     if response.status_code == 200:
         monoid = response_data['data']['id']
         if monoid:
-            UserIds.objects.create(
-                user=request.user,
-                monoid= monoid
-            )
-
-    run_async_bank_fetch(monoid, request.user)
+            run_async_bank_fetch(monoid, request.user)
+            run_async_details_fetch(monoid, request.user)
     return Response(response_data, status=response.status_code)
 
 
@@ -60,7 +56,7 @@ def get_account_details(request, account_id):
 
 @csrf_exempt
 def get_account_transactions(request, account_id):
-    url = f"https://api.withmono.com/v2/accounts/{account_id}/transactions"
+    url = f"https://api.withmono.com/v2/accounts/{account_id}/transactions?paginate=false"
     headers = {
         "mono-sec-key": MONO
     }
