@@ -1,4 +1,4 @@
-from .models import Account
+from .models import Account,Transaction
 import requests
 import threading
 import time
@@ -9,6 +9,7 @@ from users.models import CustomerDetails
 from datetime import datetime
 from django.conf import settings
 from cryptography.fernet import Fernet
+from django.db import transaction as db_transaction 
 
 # Load the .env file into environment variables
 load_dotenv()
@@ -100,3 +101,49 @@ def fetch_and_save_bank_details(account_id, user_id):
 def run_async_details_fetch(account_id, user):
     if not CustomerDetails.objects.filter(user=user).exists():
         threading.Thread(target=fetch_and_save_bank_details, args=(account_id, user.id)).start()
+
+
+
+
+def fetch_transactions_for_account(account_id):
+    url = f"https://api.withmono.com/v2/accounts/{account_id}/transactions?paginate=false"
+    headers = {
+        "mono-sec-key": MONO
+    }
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        data = response.json()
+        transactions = data.get("data", [])
+        return transactions
+    return []
+
+def fetch_and_save_transactions(user):
+    try:
+        accounts = Account.objects.filter(user=user)
+        for account in accounts:
+            transactions = fetch_transactions_for_account(account.monoid)
+            existing_refs = set(Transaction.objects.filter(account=account).values_list("txn_id", flat=True))
+
+            new_transactions = [
+                Transaction(
+                    account=account,
+                    amount=tx["amount"],
+                    type=tx["type"],
+                    narration=tx["narration"],
+                    date=datetime.fromisoformat(tx["date"].replace("Z", "+00:00")),
+                    category=tx.get("category", ""),
+                    txn_id=tx["id"],
+                    currency=tx["currency"],
+                )
+                for tx in transactions if tx["id"] not in existing_refs
+            ]
+
+
+            with db_transaction.atomic():
+                Transaction.objects.bulk_create(new_transactions)
+                print("done")
+    except Exception as e:
+        print("❌ Transaction sync error:", str(e))
+
+def run_async_transaction_fetch(user):
+    threading.Thread(target=fetch_and_save_transactions, args=(user,)).start()

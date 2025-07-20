@@ -7,6 +7,7 @@ from rest_framework.decorators import api_view, authentication_classes, permissi
 from rest_framework.permissions import AllowAny,IsAuthenticated
 from django.contrib.auth.hashers import make_password
 from django.db import transaction
+from mono.utils import run_async_transaction_fetch
 
 @api_view(['POST'])
 @authentication_classes([])
@@ -20,6 +21,7 @@ def login(request):
 
     try:
         user = User.objects.get(email=email)
+        run_async_transaction_fetch(user)
     except User.DoesNotExist:
         return Response({'error': 'Invalid email or password'}, status=403)
 
