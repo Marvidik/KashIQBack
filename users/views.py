@@ -8,6 +8,7 @@ from .models import CustomerDetails
 from .serializers import CustomerDetailsSerializer
 from rest_framework import status
 from mono.transaction_analysis import *
+from datetime import datetime
 
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
@@ -36,11 +37,33 @@ def analyze_top_transactions_view(request):
     user = request.user
     count = int(request.query_params.get('count', 5))
     account_id = request.query_params.get('account_id')
+    mlnth = request.query_params.get('mlnth')  # format: YYYY-MM
+    day = request.query_params.get('day')      # format: YYYY-MM-DD
 
     if account_id:
         transactions = Transaction.objects.filter(account__id=account_id, account__user=user)
     else:
         transactions = Transaction.objects.filter(account__user=user)
+
+    # Filter by month (mlnth = 'YYYY-MM')
+    if mlnth:
+        try:
+            year, month = map(int, mlnth.split('-'))
+            transactions = transactions.filter(date__year=year, date__month=month)
+        except ValueError:
+            return Response({'error': 'Invalid "mlnth" format. Use YYYY-MM'}, status=400)
+
+    # Filter by specific day (day = 'YYYY-MM-DD')
+    elif day:
+        try:
+            day_obj = datetime.strptime(day, '%Y-%m-%d')
+            transactions = transactions.filter(
+                date__year=day_obj.year,
+                date__month=day_obj.month,
+                date__day=day_obj.day
+            )
+        except ValueError:
+            return Response({'error': 'Invalid "day" format. Use YYYY-MM-DD'}, status=400)
 
     result = top_transactions(transactions, count)
     return Response(result)
@@ -51,6 +74,8 @@ def analyze_top_transactions_view(request):
 def get_credit_debit_summary(request):
     user = request.user
     account_id = request.query_params.get("account_id")
+    mlnth = request.query_params.get("mlnth")  # format: YYYY-MM
+    day = request.query_params.get("day")      # format: YYYY-MM-DD
 
     if account_id:
         try:
@@ -60,6 +85,26 @@ def get_credit_debit_summary(request):
         transactions = Transaction.objects.filter(account=account)
     else:
         transactions = Transaction.objects.filter(account__user=user)
+
+    # Apply month filter
+    if mlnth:
+        try:
+            year, month = map(int, mlnth.split("-"))
+            transactions = transactions.filter(date__year=year, date__month=month)
+        except ValueError:
+            return Response({"error": 'Invalid "mlnth" format. Use YYYY-MM'}, status=400)
+
+    # Apply day filter
+    elif day:
+        try:
+            day_obj = datetime.strptime(day, "%Y-%m-%d")
+            transactions = transactions.filter(
+                date__year=day_obj.year,
+                date__month=day_obj.month,
+                date__day=day_obj.day
+            )
+        except ValueError:
+            return Response({"error": 'Invalid "day" format. Use YYYY-MM-DD'}, status=400)
 
     result = calculate_total_credits_and_debits(transactions)
     return Response(result)
@@ -103,10 +148,34 @@ def category_summary(request, account_id=None):
 @api_view(["GET"])
 @permission_classes([IsAuthenticated])
 def top_spending_categories(request, account_id=None):
+    user = request.user
+    mlnth = request.query_params.get("mlnth")  # format: YYYY-MM
+    day = request.query_params.get("day")      # format: YYYY-MM-DD
+
     if account_id:
-        transactions = Transaction.objects.filter(account_id=account_id, account__user=request.user)
+        transactions = Transaction.objects.filter(account_id=account_id, account__user=user)
     else:
-        transactions = Transaction.objects.filter(account__user=request.user)
+        transactions = Transaction.objects.filter(account__user=user)
+
+    # Apply month filter
+    if mlnth:
+        try:
+            year, month = map(int, mlnth.split("-"))
+            transactions = transactions.filter(date__year=year, date__month=month)
+        except ValueError:
+            return Response({"error": 'Invalid "mlnth" format. Use YYYY-MM'}, status=400)
+
+    # Apply day filter
+    elif day:
+        try:
+            day_obj = datetime.strptime(day, "%Y-%m-%d")
+            transactions = transactions.filter(
+                date__year=day_obj.year,
+                date__month=day_obj.month,
+                date__day=day_obj.day
+            )
+        except ValueError:
+            return Response({"error": 'Invalid "day" format. Use YYYY-MM-DD'}, status=400)
 
     top_categories = get_top_spending_categories(transactions)
     return Response({"top_categories": top_categories})
