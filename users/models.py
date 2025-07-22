@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.conf import settings
 from cryptography.fernet import Fernet
+from django.core.exceptions import ValidationError
 # Create your models here.
 
 
@@ -40,3 +41,26 @@ class CustomerDetails(models.Model):
                 f = Fernet(settings.FERNET_KEY)
                 self._bvn = f.encrypt(self._bvn.encode()).decode()
             super().save(*args, **kwargs)
+
+
+
+class SpendingLimit(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    month = models.DateField()  # Just use the first day of the month
+    limit_amount = models.DecimalField(max_digits=12, decimal_places=2)
+
+    class Meta:
+        unique_together = ('user', 'month')
+
+    def clean(self):
+        if self.limit_amount is None:
+            raise ValidationError("Limit amount is required.")
+        if self.limit_amount < 0:
+            raise ValidationError("Limit amount must be non-negative.")
+
+    def save(self, *args, **kwargs):
+        self.clean()
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return f"{self.user.username} - {self.month.strftime('%Y-%m')} - {self.limit_amount}"

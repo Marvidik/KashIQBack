@@ -4,11 +4,12 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 from mono.models import Account,Transaction
 from mono.serializers import AccountSerializer
-from .models import CustomerDetails
-from .serializers import CustomerDetailsSerializer
+from .models import CustomerDetails,SpendingLimit
+from .serializers import CustomerDetailsSerializer,SpendingLimitSerializer
 from rest_framework import status
 from mono.transaction_analysis import *
 from datetime import datetime
+from .utils import check_if_spending_exceeds_limit
 
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
@@ -197,3 +198,47 @@ def recurring_payments_view(request, account_id=None):
     return Response({
         "recurring_payments": recurring
     })
+
+
+
+@api_view(['POST'])
+@permission_classes([IsAuthenticated])
+def set_spending_limit(request):
+    user = request.user
+    data = request.data.copy()
+    month = data.get('month')
+    limit = data.get('limit_amount')
+
+    # Validate month format
+    try:
+        month_date = datetime.strptime(month, '%Y-%m').date()
+        month_date = month_date.replace(day=1)
+    except (ValueError, TypeError):
+        return Response({"error": "Invalid month format. Use YYYY-MM"}, status=400)
+
+    data['month'] = month_date
+    data['user'] = user.id
+
+    # Check if user has already exceeded the new limit for the month
+    exceeded, spent, error = check_if_spending_exceeds_limit(user, month_date.year, month_date.month, limit)
+    if error:
+        return Response({"error": error}, status=400)
+    if exceeded:
+        return Response({
+            "error": "You have already spent more than the limit you are trying to set for this month.",
+            "spent": spent,
+            "limit_attempted": limit
+        }, status=400)
+
+    # Check if SpendingLimit exists for user/month
+    try:
+        instance = SpendingLimit.objects.get(user=user, month=month_date)
+        serializer = SpendingLimitSerializer(instance, data=data, partial=True)
+    except SpendingLimit.DoesNotExist:
+        serializer = SpendingLimitSerializer(data=data)
+
+    if serializer.is_valid():
+        serializer.save(user=user)
+        return Response({"message": "Spending limit set", "limit": serializer.data['limit_amount'], "spending_limit": serializer.data})
+    else:
+        return Response(serializer.errors, status=400)

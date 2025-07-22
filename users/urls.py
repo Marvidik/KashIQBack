@@ -19,7 +19,5 @@ urlpatterns = [
     path('recurring-payments/', recurring_payments_view),
     path('recurring-payments/<int:account_id>/', recurring_payments_view),
 
-
-
-    
-]
+    path('set-spending-limit/', set_spending_limit, name='set-spending-limit'),
+] 
