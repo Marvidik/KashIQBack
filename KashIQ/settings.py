@@ -51,6 +51,9 @@ INSTALLED_APPS = [
     'users',
     'personalization',
     'corsheaders',
+    'aiapp',
+
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -85,6 +88,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'KashIQ.wsgi.application'
+ASGI_APPLICATION = 'KashIQ.asgi.application'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [

@@ -11,6 +11,7 @@ from rest_framework import status
 from .utils import fetch_and_save_bank_name,run_async_bank_fetch,run_async_details_fetch
 from dotenv import load_dotenv
 import os
+import json
 
 # Load the .env file into environment variables
 load_dotenv()
@@ -63,3 +64,36 @@ def get_account_transactions(request, account_id):
 
     response = requests.get(url, headers=headers)
     return JsonResponse(response.json(), status=response.status_code)
+
+
+
+@csrf_exempt
+def categorize_transactions(request, account_id):
+    if request.method == "POST":
+        try:
+            data = json.loads(request.body.decode('utf-8'))  # Parse JSON body
+        except json.JSONDecodeError:
+            return JsonResponse({"error": "Invalid JSON payload"}, status=400)
+
+        # Validate required fields
+        transactions = data.get("transactions")
+        category = data.get("category")
+
+        if not transactions or not category:
+            return JsonResponse({"error": "Missing 'transactions' or 'category' field"}, status=400)
+
+        # Mono API request
+        url = f"https://api.withmono.com/v2/accounts/{account_id}/transactions/categorise"
+        headers = {
+            "mono-sec-key": MONO,
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "transactions": transactions,  # List of transaction IDs
+            "category": category
+        }
+
+        response = requests.post(url, headers=headers, json=payload)
+        return JsonResponse(response.json(), status=response.status_code)
+
+    return JsonResponse({"error": "Invalid request method"}, status=405)

@@ -1,15 +1,15 @@
-from django.shortcuts import render
-from dotenv import load_dotenv
-import google.generativeai as genai
-import os
+# views.py
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.response import Response
+from .service import get_ai_response
 
-# Load the .env file into environment variables
-load_dotenv()
-GOOGLE_API_KEY=os.getenv("GOOGLE_API_KEY")
+@api_view(['POST'])
+@permission_classes([IsAuthenticated])
+def chat_with_ai(request):
+    question = request.data.get('question')
+    if not question:
+        return Response({"error": "Question is required"}, status=400)
 
-genai.configure(api_key=GOOGLE_API_KEY)
-
-model = genai.GenerativeModel("models/gemini-2.5-flash")
-
-response = model.generate_content("Tell me a new Nigerian joke")
-print(response.text)
+    answer = get_ai_response(request.user, question)
+    return Response({"answer": answer})

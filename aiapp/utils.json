@@ -1,0 +1,2753 @@
+{
+  "status": "successful",
+  "message": "Transaction retrieved successfully",
+  "timestamp": "2025-07-22T08:42:49.826Z",
+  "data": [
+    {
+      "id": "687ca103ea37a09916329513",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 5",
+      "amount": 989456,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 11150824,
+      "date": "2025-07-17T11:37:04.629Z"
+    },
+    {
+      "id": "687ca103ea37a09916329511",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 3",
+      "amount": 855486,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 5208863,
+      "date": "2025-07-19T04:09:50.745Z"
+    },
+    {
+      "id": "687ca103ea37a09916329514",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 6",
+      "amount": 7501948,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 3648876,
+      "date": "2025-07-17T03:18:05.598Z"
+    },
+    {
+      "id": "687ca103ea37a0991632951f",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 17",
+      "amount": 7279630,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 9341379,
+      "date": "2025-07-08T18:50:05.047Z"
+    },
+    {
+      "id": "687ca103ea37a09916329512",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 4",
+      "amount": 6931417,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 12140280,
+      "date": "2025-07-18T10:32:33.629Z"
+    },
+    {
+      "id": "687ca103ea37a0991632950f",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 1",
+      "amount": 4377359,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 5622641,
+      "date": "2025-07-20T06:55:47.463Z"
+    },
+    {
+      "id": "687ca103ea37a09916329526",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 24",
+      "amount": 9134619,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 9890804,
+      "date": "2025-07-04T16:52:21.386Z"
+    },
+    {
+      "id": "687ca103ea37a09916329527",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 25",
+      "amount": 7758167,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 17648971,
+      "date": "2025-07-03T21:05:47.749Z"
+    },
+    {
+      "id": "687ca103ea37a0991632952a",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 28",
+      "amount": 4375113,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 13678899,
+      "date": "2025-07-01T13:02:11.305Z"
+    },
+    {
+      "id": "687ca103ea37a09916329532",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 36",
+      "amount": 825955,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 33523492,
+      "date": "2025-06-25T19:22:03.289Z"
+    },
+    {
+      "id": "687ca103ea37a09916329536",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 40",
+      "amount": 7926652,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 39334303,
+      "date": "2025-06-23T13:02:57.296Z"
+    },
+    {
+      "id": "687ca103ea37a09916329540",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 50",
+      "amount": 5529346,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 36910477,
+      "date": "2025-06-17T11:31:09.552Z"
+    },
+    {
+      "id": "687ca103ea37a09916329544",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 54",
+      "amount": 3665622,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 45964367,
+      "date": "2025-06-14T16:27:50.538Z"
+    },
+    {
+      "id": "687ca103ea37a09916329510",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 2",
+      "amount": 1269264,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 4353377,
+      "date": "2025-07-19T14:45:23.114Z"
+    },
+    {
+      "id": "687ca103ea37a0991632951e",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 16",
+      "amount": 8877860,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 2061749,
+      "date": "2025-07-09T12:01:05.908Z"
+    },
+    {
+      "id": "687ca103ea37a09916329524",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 22",
+      "amount": 7343652,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 9806732,
+      "date": "2025-07-05T23:06:39.530Z"
+    },
+    {
+      "id": "687ca103ea37a0991632953d",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 47",
+      "amount": 3529228,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 25534608,
+      "date": "2025-06-19T08:16:09.653Z"
+    },
+    {
+      "id": "687ca103ea37a0991632953f",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 49",
+      "amount": 7122246,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 31381131,
+      "date": "2025-06-18T01:04:34.568Z"
+    },
+    {
+      "id": "687ca103ea37a09916329548",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 58",
+      "amount": 1327501,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 42413395,
+      "date": "2025-06-11T20:25:09.451Z"
+    },
+    {
+      "id": "687ca103ea37a0991632951a",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 12",
+      "amount": 8581578,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 12381794,
+      "date": "2025-07-12T11:55:37.701Z"
+    },
+    {
+      "id": "687ca103ea37a0991632951d",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 15",
+      "amount": 2381760,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 10939609,
+      "date": "2025-07-10T05:33:48.663Z"
+    },
+    {
+      "id": "687ca103ea37a09916329523",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 21",
+      "amount": 7450179,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 2463080,
+      "date": "2025-07-06T14:19:18.563Z"
+    },
+    {
+      "id": "687ca103ea37a09916329533",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 37",
+      "amount": 7947714,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 41471206,
+      "date": "2025-06-25T09:56:43.883Z"
+    },
+    {
+      "id": "687ca103ea37a09916329542",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 52",
+      "amount": 6026819,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 40348863,
+      "date": "2025-06-15T22:13:42.720Z"
+    },
+    {
+      "id": "687ca103ea37a0991632954c",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 62",
+      "amount": 7016201,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 58932999,
+      "date": "2025-06-09T09:06:47.637Z"
+    },
+    {
+      "id": "687ca103ea37a0991632951c",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 14",
+      "amount": 3077124,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 8557849,
+      "date": "2025-07-10T21:47:13.909Z"
+    },
+    {
+      "id": "687ca103ea37a09916329525",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 23",
+      "amount": 9218691,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 19025423,
+      "date": "2025-07-05T06:59:48.019Z"
+    },
+    {
+      "id": "687ca103ea37a0991632952e",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 32",
+      "amount": 2185961,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 20730997,
+      "date": "2025-06-28T06:26:22.918Z"
+    },
+    {
+      "id": "687ca103ea37a0991632952f",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 33",
+      "amount": 430054,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 21161051,
+      "date": "2025-06-27T10:03:00.588Z"
+    },
+    {
+      "id": "687ca103ea37a0991632953c",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 46",
+      "amount": 6242179,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 29063836,
+      "date": "2025-06-19T19:57:01.185Z"
+    },
+    {
+      "id": "687ca103ea37a09916329543",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 53",
+      "amount": 1949882,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 42298745,
+      "date": "2025-06-15T01:46:58.947Z"
+    },
+    {
+      "id": "687ca103ea37a09916329521",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 19",
+      "amount": 4345275,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 15759494,
+      "date": "2025-07-08T01:04:40.746Z"
+    },
+    {
+      "id": "687ca103ea37a09916329522",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 20",
+      "amount": 5846235,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 9913259,
+      "date": "2025-07-07T07:53:36.981Z"
+    },
+    {
+      "id": "687ca103ea37a09916329528",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 26",
+      "amount": 8859887,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 8789084,
+      "date": "2025-07-03T05:02:13.404Z"
+    },
+    {
+      "id": "687ca103ea37a0991632952c",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 30",
+      "amount": 9594337,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 29079977,
+      "date": "2025-06-29T23:31:29.946Z"
+    },
+    {
+      "id": "687ca103ea37a09916329539",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 43",
+      "amount": 3771294,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 25031513,
+      "date": "2025-06-21T20:07:13.440Z"
+    },
+    {
+      "id": "687ca103ea37a09916329549",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 59",
+      "amount": 7465388,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 34948007,
+      "date": "2025-06-11T05:50:16.418Z"
+    },
+    {
+      "id": "687ca103ea37a0991632954a",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 60",
+      "amount": 8346625,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 43294632,
+      "date": "2025-06-10T09:24:49.217Z"
+    },
+    {
+      "id": "687ca103ea37a0991632951b",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 13",
+      "amount": 746821,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 11634973,
+      "date": "2025-07-11T14:13:50.607Z"
+    },
+    {
+      "id": "687ca103ea37a09916329520",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 18",
+      "amount": 2072840,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 11414219,
+      "date": "2025-07-08T09:20:31.070Z"
+    },
+    {
+      "id": "687ca103ea37a0991632952b",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 29",
+      "amount": 5806741,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 19485640,
+      "date": "2025-06-30T14:53:21.944Z"
+    },
+    {
+      "id": "687ca103ea37a0991632952d",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 31",
+      "amount": 6163019,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 22916958,
+      "date": "2025-06-29T05:51:01.024Z"
+    },
+    {
+      "id": "687ca103ea37a09916329531",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 35",
+      "amount": 9625179,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 34349447,
+      "date": "2025-06-26T03:50:17.806Z"
+    },
+    {
+      "id": "687ca103ea37a09916329534",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 38",
+      "amount": 905456,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 42376662,
+      "date": "2025-06-24T19:20:34.791Z"
+    },
+    {
+      "id": "687ca103ea37a0991632953a",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 44",
+      "amount": 8431394,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 33462907,
+      "date": "2025-06-20T21:48:22.775Z"
+    },
+    {
+      "id": "687ca103ea37a0991632953b",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 45",
+      "amount": 1843108,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 35306015,
+      "date": "2025-06-20T08:15:28.788Z"
+    },
+    {
+      "id": "687ca103ea37a09916329541",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 51",
+      "amount": 2588433,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 34322044,
+      "date": "2025-06-16T18:30:38.258Z"
+    },
+    {
+      "id": "687ca103ea37a09916329545",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 55",
+      "amount": 6752215,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 52716582,
+      "date": "2025-06-13T19:39:48.042Z"
+    },
+    {
+      "id": "687ca103ea37a0991632954b",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 61",
+      "amount": 8622166,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 51916798,
+      "date": "2025-06-10T00:16:54.122Z"
+    },
+    {
+      "id": "687ca103ea37a0991632954e",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 64",
+      "amount": 2697416,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 47156337,
+      "date": "2025-06-08T00:31:12.208Z"
+    },
+    {
+      "id": "687ca103ea37a09916329516",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 8",
+      "amount": 6167891,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 11248904,
+      "date": "2025-07-15T09:24:05.010Z"
+    },
+    {
+      "id": "687ca103ea37a09916329517",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 9",
+      "amount": 7099044,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 18347948,
+      "date": "2025-07-14T14:39:28.991Z"
+    },
+    {
+      "id": "687ca103ea37a09916329519",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 11",
+      "amount": 3794727,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 20963372,
+      "date": "2025-07-13T10:38:24.852Z"
+    },
+    {
+      "id": "687ca103ea37a09916329529",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 27",
+      "amount": 514702,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 9303786,
+      "date": "2025-07-02T09:37:30.038Z"
+    },
+    {
+      "id": "687ca103ea37a09916329530",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 34",
+      "amount": 3563217,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 24724268,
+      "date": "2025-06-26T14:33:57.827Z"
+    },
+    {
+      "id": "687ca103ea37a09916329537",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 41",
+      "amount": 5327895,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 34006408,
+      "date": "2025-06-23T03:43:48.689Z"
+    },
+    {
+      "id": "687ca103ea37a0991632953e",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 48",
+      "amount": 1275723,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 24258885,
+      "date": "2025-06-18T22:19:15.906Z"
+    },
+    {
+      "id": "687ca103ea37a09916329547",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 57",
+      "amount": 4374361,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 41085894,
+      "date": "2025-06-12T19:25:27.663Z"
+    },
+    {
+      "id": "687ca103ea37a0991632954d",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 63",
+      "amount": 9079246,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 49853753,
+      "date": "2025-06-08T17:27:52.201Z"
+    },
+    {
+      "id": "687ca103ea37a09916329515",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 7",
+      "amount": 1432137,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 5081013,
+      "date": "2025-07-16T05:48:27.172Z"
+    },
+    {
+      "id": "687ca103ea37a09916329518",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 10",
+      "amount": 6410151,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 24758099,
+      "date": "2025-07-13T21:59:19.572Z"
+    },
+    {
+      "id": "687ca103ea37a09916329535",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 39",
+      "amount": 4884293,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 47260955,
+      "date": "2025-06-24T10:51:00.108Z"
+    },
+    {
+      "id": "687ca103ea37a09916329538",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 42",
+      "amount": 5203601,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 28802807,
+      "date": "2025-06-22T06:41:31.243Z"
+    },
+    {
+      "id": "687ca103ea37a09916329546",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 56",
+      "amount": 7256327,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 45460255,
+      "date": "2025-06-13T09:49:20.804Z"
+    },
+    {
+      "id": "687ca103ea37a09916329551",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 67",
+      "amount": 3339453,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 41181032,
+      "date": "2025-06-05T19:21:21.927Z"
+    },
+    {
+      "id": "687ca103ea37a0991632954f",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 65",
+      "amount": 5760461,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 41395876,
+      "date": "2025-06-07T14:26:32.369Z"
+    },
+    {
+      "id": "687ca103ea37a0991632956b",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 93",
+      "amount": 5683755,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 54456808,
+      "date": "2025-05-19T22:09:42.148Z"
+    },
+    {
+      "id": "687ca103ea37a09916329552",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 68",
+      "amount": 6934179,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 48115211,
+      "date": "2025-06-04T22:38:11.956Z"
+    },
+    {
+      "id": "687ca103ea37a09916329554",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 70",
+      "amount": 5822566,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 46439921,
+      "date": "2025-06-03T22:16:50.915Z"
+    },
+    {
+      "id": "687ca103ea37a0991632955f",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 81",
+      "amount": 6271619,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 33843311,
+      "date": "2025-05-28T00:32:26.864Z"
+    },
+    {
+      "id": "687ca103ea37a09916329565",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 87",
+      "amount": 6167906,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 42483790,
+      "date": "2025-05-23T17:12:58.997Z"
+    },
+    {
+      "id": "687ca103ea37a09916329584",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 118",
+      "amount": 9839006,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 55604633,
+      "date": "2025-05-03T18:13:53.914Z"
+    },
+    {
+      "id": "687ca103ea37a09916329587",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 121",
+      "amount": 1170006,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 61201544,
+      "date": "2025-05-02T00:11:58.237Z"
+    },
+    {
+      "id": "687ca103ea37a09916329589",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 123",
+      "amount": 9527683,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 44445481,
+      "date": "2025-04-30T12:03:59.705Z"
+    },
+    {
+      "id": "687ca103ea37a0991632957e",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 112",
+      "amount": 4338936,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 54723449,
+      "date": "2025-05-07T21:02:51.855Z"
+    },
+    {
+      "id": "687ca103ea37a0991632958e",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 128",
+      "amount": 5316867,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 21083688,
+      "date": "2025-04-27T01:21:10.574Z"
+    },
+    {
+      "id": "687ca103ea37a09916329557",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 73",
+      "amount": 9766806,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 64665697,
+      "date": "2025-06-02T04:43:21.441Z"
+    },
+    {
+      "id": "687ca103ea37a09916329559",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 75",
+      "amount": 297210,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 55751031,
+      "date": "2025-05-31T18:08:12.119Z"
+    },
+    {
+      "id": "687ca103ea37a09916329567",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 89",
+      "amount": 9637689,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 39977314,
+      "date": "2025-05-22T11:33:02.877Z"
+    },
+    {
+      "id": "687ca103ea37a0991632956e",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 96",
+      "amount": 5939218,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 51873604,
+      "date": "2025-05-18T05:47:14.469Z"
+    },
+    {
+      "id": "687ca103ea37a0991632956f",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 97",
+      "amount": 4887218,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 56760822,
+      "date": "2025-05-17T12:21:21.285Z"
+    },
+    {
+      "id": "687ca103ea37a09916329573",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 101",
+      "amount": 8805603,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 45130202,
+      "date": "2025-05-14T09:00:39.643Z"
+    },
+    {
+      "id": "687ca103ea37a09916329586",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 120",
+      "amount": 1425732,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 60031538,
+      "date": "2025-05-02T20:50:44.887Z"
+    },
+    {
+      "id": "687ca103ea37a09916329568",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 90",
+      "amount": 6807056,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 46784370,
+      "date": "2025-05-21T19:47:44.815Z"
+    },
+    {
+      "id": "687ca103ea37a09916329569",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 91",
+      "amount": 433565,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 47217935,
+      "date": "2025-05-21T11:44:04.995Z"
+    },
+    {
+      "id": "687ca103ea37a0991632956d",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 95",
+      "amount": 2616359,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 57812822,
+      "date": "2025-05-18T20:08:54.639Z"
+    },
+    {
+      "id": "687ca103ea37a0991632957d",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 111",
+      "amount": 5799752,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 59062385,
+      "date": "2025-05-08T09:19:33.709Z"
+    },
+    {
+      "id": "687ca103ea37a0991632955e",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 80",
+      "amount": 6276655,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 40114930,
+      "date": "2025-05-28T23:15:26.590Z"
+    },
+    {
+      "id": "687ca103ea37a09916329555",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 71",
+      "amount": 4339137,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 50779058,
+      "date": "2025-06-03T09:24:58.259Z"
+    },
+    {
+      "id": "687ca103ea37a09916329561",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 83",
+      "amount": 445666,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 35945689,
+      "date": "2025-05-26T12:23:39.337Z"
+    },
+    {
+      "id": "687ca103ea37a09916329577",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 105",
+      "amount": 9664857,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 45548847,
+      "date": "2025-05-11T20:41:55.207Z"
+    },
+    {
+      "id": "687ca103ea37a0991632957f",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 113",
+      "amount": 6457643,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 61181092,
+      "date": "2025-05-06T22:10:54.950Z"
+    },
+    {
+      "id": "687ca103ea37a09916329582",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 116",
+      "amount": 648051,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 69170373,
+      "date": "2025-05-04T16:06:23.908Z"
+    },
+    {
+      "id": "687ca103ea37a0991632958a",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 124",
+      "amount": 9812450,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 34633031,
+      "date": "2025-04-29T22:58:30.184Z"
+    },
+    {
+      "id": "687ca103ea37a0991632958c",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 126",
+      "amount": 8523543,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 34131869,
+      "date": "2025-04-28T16:12:40.745Z"
+    },
+    {
+      "id": "687ca103ea37a0991632958d",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 127",
+      "amount": 7731314,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 26400555,
+      "date": "2025-04-27T19:03:52.166Z"
+    },
+    {
+      "id": "687ca103ea37a09916329550",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 66",
+      "amount": 3554297,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 37841579,
+      "date": "2025-06-06T18:42:11.708Z"
+    },
+    {
+      "id": "687ca103ea37a09916329560",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 82",
+      "amount": 2548044,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 36391355,
+      "date": "2025-05-27T05:31:48.949Z"
+    },
+    {
+      "id": "687ca103ea37a09916329562",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 84",
+      "amount": 1706879,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 37652568,
+      "date": "2025-05-25T16:16:04.878Z"
+    },
+    {
+      "id": "687ca103ea37a09916329563",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 85",
+      "amount": 4915901,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 42568469,
+      "date": "2025-05-25T07:00:08.049Z"
+    },
+    {
+      "id": "687ca103ea37a09916329566",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 88",
+      "amount": 7131213,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 49615003,
+      "date": "2025-05-23T07:05:23.608Z"
+    },
+    {
+      "id": "687ca103ea37a09916329578",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 106",
+      "amount": 6550084,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 38998763,
+      "date": "2025-05-11T06:11:43.764Z"
+    },
+    {
+      "id": "687ca103ea37a09916329579",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 107",
+      "amount": 5391006,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 33607757,
+      "date": "2025-05-10T16:15:16.842Z"
+    },
+    {
+      "id": "687ca103ea37a0991632957c",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 110",
+      "amount": 7735808,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 53262633,
+      "date": "2025-05-08T22:40:31.547Z"
+    },
+    {
+      "id": "687ca103ea37a09916329583",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 117",
+      "amount": 3726734,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 65443639,
+      "date": "2025-05-04T05:13:07.336Z"
+    },
+    {
+      "id": "687ca103ea37a09916329558",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 74",
+      "amount": 8617456,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 56048241,
+      "date": "2025-06-01T13:59:02.051Z"
+    },
+    {
+      "id": "687ca103ea37a0991632955a",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 76",
+      "amount": 6134993,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 49616038,
+      "date": "2025-05-31T08:00:03.649Z"
+    },
+    {
+      "id": "687ca103ea37a0991632955b",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 77",
+      "amount": 3398695,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 53014733,
+      "date": "2025-05-30T21:17:58.689Z"
+    },
+    {
+      "id": "687ca103ea37a0991632955c",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 78",
+      "amount": 3766679,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 49248054,
+      "date": "2025-05-30T11:43:18.261Z"
+    },
+    {
+      "id": "687ca103ea37a0991632955d",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 79",
+      "amount": 2856469,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 46391585,
+      "date": "2025-05-29T15:22:42.207Z"
+    },
+    {
+      "id": "687ca103ea37a09916329570",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 98",
+      "amount": 997540,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 55763282,
+      "date": "2025-05-16T22:17:05.994Z"
+    },
+    {
+      "id": "687ca103ea37a09916329571",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 99",
+      "amount": 1388475,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 54374807,
+      "date": "2025-05-16T01:41:39.547Z"
+    },
+    {
+      "id": "687ca103ea37a09916329572",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 100",
+      "amount": 439002,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 53935805,
+      "date": "2025-05-15T03:03:31.937Z"
+    },
+    {
+      "id": "687ca103ea37a09916329575",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 103",
+      "amount": 4723935,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 39253845,
+      "date": "2025-05-13T06:53:16.083Z"
+    },
+    {
+      "id": "687ca103ea37a0991632957a",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 108",
+      "amount": 9352567,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 42960324,
+      "date": "2025-05-10T08:02:30.253Z"
+    },
+    {
+      "id": "687ca103ea37a09916329580",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 114",
+      "amount": 7325161,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 68506253,
+      "date": "2025-05-06T08:59:41.407Z"
+    },
+    {
+      "id": "687ca103ea37a09916329581",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 115",
+      "amount": 1312171,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 69818424,
+      "date": "2025-05-05T12:03:40.861Z"
+    },
+    {
+      "id": "687ca103ea37a09916329585",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 119",
+      "amount": 3001173,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 58605806,
+      "date": "2025-05-03T10:03:29.140Z"
+    },
+    {
+      "id": "687ca103ea37a09916329588",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 122",
+      "amount": 7228380,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 53973164,
+      "date": "2025-05-01T08:19:55.988Z"
+    },
+    {
+      "id": "687ca103ea37a0991632958b",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 125",
+      "amount": 8022381,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 42655412,
+      "date": "2025-04-29T07:25:01.675Z"
+    },
+    {
+      "id": "687ca103ea37a09916329553",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 69",
+      "amount": 4147276,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 52262487,
+      "date": "2025-06-04T06:22:07.953Z"
+    },
+    {
+      "id": "687ca103ea37a09916329556",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 72",
+      "amount": 4119833,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 54898891,
+      "date": "2025-06-02T20:39:14.739Z"
+    },
+    {
+      "id": "687ca103ea37a09916329564",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 86",
+      "amount": 6252585,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 36315884,
+      "date": "2025-05-24T13:52:30.620Z"
+    },
+    {
+      "id": "687ca103ea37a0991632956a",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 92",
+      "amount": 1555118,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 48773053,
+      "date": "2025-05-20T14:07:26.572Z"
+    },
+    {
+      "id": "687ca103ea37a0991632956c",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 94",
+      "amount": 5972373,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 60429181,
+      "date": "2025-05-19T13:50:13.541Z"
+    },
+    {
+      "id": "687ca103ea37a09916329574",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 102",
+      "amount": 1152422,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 43977780,
+      "date": "2025-05-14T00:40:25.530Z"
+    },
+    {
+      "id": "687ca103ea37a09916329576",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 104",
+      "amount": 3369855,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 35883990,
+      "date": "2025-05-12T15:01:58.720Z"
+    },
+    {
+      "id": "687ca103ea37a0991632957b",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 109",
+      "amount": 2566501,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 45526825,
+      "date": "2025-05-09T16:03:54.954Z"
+    },
+    {
+      "id": "687ca103ea37a09916329591",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 131",
+      "amount": 8055095,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 7947623,
+      "date": "2025-04-24T19:37:31.388Z"
+    },
+    {
+      "id": "687ca103ea37a0991632958f",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 129",
+      "amount": 4729712,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 25813400,
+      "date": "2025-04-26T06:57:53.391Z"
+    },
+    {
+      "id": "687ca103ea37a09916329595",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 135",
+      "amount": 4228941,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 5372658,
+      "date": "2025-04-21T23:45:40.005Z"
+    },
+    {
+      "id": "687ca103ea37a09916329593",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 133",
+      "amount": 712024,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 1337526,
+      "date": "2025-04-23T15:51:17.269Z"
+    },
+    {
+      "id": "687ca103ea37a099163295a9",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 155",
+      "amount": 2162340,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 34085856,
+      "date": "2025-04-07T03:58:22.168Z"
+    },
+    {
+      "id": "687ca103ea37a099163295ac",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 158",
+      "amount": 128556,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 30339061,
+      "date": "2025-04-05T02:25:05.761Z"
+    },
+    {
+      "id": "687ca103ea37a099163295b2",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 164",
+      "amount": 7689737,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 33572608,
+      "date": "2025-04-01T14:42:08.728Z"
+    },
+    {
+      "id": "687ca103ea37a099163295ba",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 172",
+      "amount": 153768,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 45063230,
+      "date": "2025-03-28T00:23:17.557Z"
+    },
+    {
+      "id": "687ca103ea37a099163295bb",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 173",
+      "amount": 3294892,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 41768338,
+      "date": "2025-03-27T10:52:46.290Z"
+    },
+    {
+      "id": "687ca103ea37a099163295c1",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 179",
+      "amount": 1170001,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 44154559,
+      "date": "2025-03-23T14:05:26.006Z"
+    },
+    {
+      "id": "687ca103ea37a099163295c5",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 183",
+      "amount": 5434256,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 42001648,
+      "date": "2025-03-20T21:35:08.754Z"
+    },
+    {
+      "id": "687ca103ea37a099163295c8",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 186",
+      "amount": 1068784,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 54301029,
+      "date": "2025-03-19T08:01:57.781Z"
+    },
+    {
+      "id": "687ca103ea37a099163295a0",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 146",
+      "amount": 6715627,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 14335725,
+      "date": "2025-04-14T05:17:34.012Z"
+    },
+    {
+      "id": "687ca103ea37a099163295ab",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 157",
+      "amount": 5319583,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 30210505,
+      "date": "2025-04-06T02:04:25.285Z"
+    },
+    {
+      "id": "687ca103ea37a099163295b4",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 166",
+      "amount": 444437,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 41004629,
+      "date": "2025-03-31T16:48:50.809Z"
+    },
+    {
+      "id": "687ca103ea37a099163295b8",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 170",
+      "amount": 8050358,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 37860148,
+      "date": "2025-03-29T09:37:27.871Z"
+    },
+    {
+      "id": "687ca103ea37a099163295c6",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 184",
+      "amount": 3533023,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 45534671,
+      "date": "2025-03-20T10:56:44.368Z"
+    },
+    {
+      "id": "687ca103ea37a099163295cd",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 191",
+      "amount": 2269711,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 54417249,
+      "date": "2025-03-16T06:16:51.432Z"
+    },
+    {
+      "id": "687ca103ea37a099163295a1",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 147",
+      "amount": 795398,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 15131123,
+      "date": "2025-04-13T08:46:10.310Z"
+    },
+    {
+      "id": "687ca103ea37a099163295b3",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 165",
+      "amount": 7876458,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 41449066,
+      "date": "2025-04-01T01:06:36.624Z"
+    },
+    {
+      "id": "687ca103ea37a099163295b7",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 169",
+      "amount": 705687,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 45910506,
+      "date": "2025-03-30T08:51:17.228Z"
+    },
+    {
+      "id": "687ca103ea37a099163295be",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 176",
+      "amount": 5567403,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 35628817,
+      "date": "2025-03-25T15:03:29.783Z"
+    },
+    {
+      "id": "687ca103ea37a099163295c0",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 178",
+      "amount": 80369,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 45324560,
+      "date": "2025-03-24T13:55:34.853Z"
+    },
+    {
+      "id": "687ca103ea37a099163295c9",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 187",
+      "amount": 4774595,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 49526434,
+      "date": "2025-03-18T23:19:37.664Z"
+    },
+    {
+      "id": "687ca103ea37a099163295cb",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 189",
+      "amount": 8449161,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 48740780,
+      "date": "2025-03-17T16:59:09.131Z"
+    },
+    {
+      "id": "687ca103ea37a0991632959d",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 143",
+      "amount": 6623542,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 6484254,
+      "date": "2025-04-16T00:49:54.127Z"
+    },
+    {
+      "id": "687ca103ea37a099163295af",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 161",
+      "amount": 8369703,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 49028403,
+      "date": "2025-04-03T12:46:24.727Z"
+    },
+    {
+      "id": "687ca103ea37a099163295b0",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 162",
+      "amount": 5676000,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 43352403,
+      "date": "2025-04-02T21:48:27.410Z"
+    },
+    {
+      "id": "687ca103ea37a099163295b1",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 163",
+      "amount": 2090058,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 41262345,
+      "date": "2025-04-02T13:10:51.166Z"
+    },
+    {
+      "id": "687ca103ea37a099163295c7",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 185",
+      "amount": 7697574,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 53232245,
+      "date": "2025-03-19T19:32:44.017Z"
+    },
+    {
+      "id": "687ca103ea37a099163295ce",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 192",
+      "amount": 8000202,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 62417451,
+      "date": "2025-03-15T06:31:55.292Z"
+    },
+    {
+      "id": "687ca103ea37a09916329590",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 130",
+      "amount": 9810682,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 16002718,
+      "date": "2025-04-25T10:26:49.478Z"
+    },
+    {
+      "id": "687ca103ea37a09916329597",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 137",
+      "amount": 683709,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 14870884,
+      "date": "2025-04-20T12:36:28.554Z"
+    },
+    {
+      "id": "687ca103ea37a0991632959e",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 144",
+      "amount": 6753592,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 13237846,
+      "date": "2025-04-15T13:57:14.663Z"
+    },
+    {
+      "id": "687ca103ea37a099163295a2",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 148",
+      "amount": 7371759,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 22502882,
+      "date": "2025-04-12T20:30:35.427Z"
+    },
+    {
+      "id": "687ca103ea37a099163295a5",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 151",
+      "amount": 1941505,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 8384066,
+      "date": "2025-04-10T08:12:10.958Z"
+    },
+    {
+      "id": "687ca103ea37a099163295a7",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 153",
+      "amount": 9997182,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 28172777,
+      "date": "2025-04-08T11:30:26.672Z"
+    },
+    {
+      "id": "687ca103ea37a099163295ae",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 160",
+      "amount": 8947245,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 40658700,
+      "date": "2025-04-03T21:31:58.262Z"
+    },
+    {
+      "id": "687ca103ea37a099163295b9",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 171",
+      "amount": 7356850,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 45216998,
+      "date": "2025-03-28T10:53:37.985Z"
+    },
+    {
+      "id": "687ca103ea37a099163295bc",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 174",
+      "amount": 4669490,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 37098848,
+      "date": "2025-03-27T01:47:56.149Z"
+    },
+    {
+      "id": "687ca103ea37a099163295ca",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 188",
+      "amount": 7663507,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 57189941,
+      "date": "2025-03-18T13:56:57.977Z"
+    },
+    {
+      "id": "687ca103ea37a099163295cc",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 190",
+      "amount": 3406758,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 52147538,
+      "date": "2025-03-16T20:56:46.714Z"
+    },
+    {
+      "id": "687ca103ea37a09916329594",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 134",
+      "amount": 193809,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 1143717,
+      "date": "2025-04-22T17:30:02.633Z"
+    },
+    {
+      "id": "687ca103ea37a0991632959a",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 140",
+      "amount": 461552,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 8610020,
+      "date": "2025-04-18T02:09:32.343Z"
+    },
+    {
+      "id": "687ca103ea37a0991632959c",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 142",
+      "amount": 2196587,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 13107796,
+      "date": "2025-04-16T11:56:21.627Z"
+    },
+    {
+      "id": "687ca103ea37a0991632959f",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 145",
+      "amount": 7813506,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 21051352,
+      "date": "2025-04-15T02:56:12.299Z"
+    },
+    {
+      "id": "687ca103ea37a099163295a3",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 149",
+      "amount": 7553206,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 14949676,
+      "date": "2025-04-11T22:14:53.272Z"
+    },
+    {
+      "id": "687ca103ea37a099163295a6",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 152",
+      "amount": 9791529,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 18175595,
+      "date": "2025-04-09T11:25:19.739Z"
+    },
+    {
+      "id": "687ca103ea37a099163295c4",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 182",
+      "amount": 3569533,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 36567392,
+      "date": "2025-03-21T16:56:55.040Z"
+    },
+    {
+      "id": "687ca103ea37a09916329592",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 132",
+      "amount": 5898073,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 2049550,
+      "date": "2025-04-24T07:31:18.215Z"
+    },
+    {
+      "id": "687ca103ea37a09916329596",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 136",
+      "amount": 8814517,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 14187175,
+      "date": "2025-04-21T10:42:36.960Z"
+    },
+    {
+      "id": "687ca103ea37a09916329598",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 138",
+      "amount": 3492001,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 11378883,
+      "date": "2025-04-19T14:14:58.066Z"
+    },
+    {
+      "id": "687ca103ea37a09916329599",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 139",
+      "amount": 3230415,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 8148468,
+      "date": "2025-04-18T18:54:58.171Z"
+    },
+    {
+      "id": "687ca103ea37a099163295ad",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 159",
+      "amount": 1372394,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 31711455,
+      "date": "2025-04-04T11:06:23.871Z"
+    },
+    {
+      "id": "687ca103ea37a099163295b6",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 168",
+      "amount": 2861222,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 45204819,
+      "date": "2025-03-30T17:53:10.434Z"
+    },
+    {
+      "id": "687ca103ea37a099163295bd",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 175",
+      "amount": 7037434,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 30061414,
+      "date": "2025-03-26T04:39:59.353Z"
+    },
+    {
+      "id": "687ca103ea37a099163295c2",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 180",
+      "amount": 2492716,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 41661843,
+      "date": "2025-03-23T05:53:45.842Z"
+    },
+    {
+      "id": "687ca103ea37a0991632959b",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 141",
+      "amount": 6694363,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 15304383,
+      "date": "2025-04-17T10:59:30.908Z"
+    },
+    {
+      "id": "687ca103ea37a099163295a4",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 150",
+      "amount": 4624105,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 10325571,
+      "date": "2025-04-11T01:50:12.379Z"
+    },
+    {
+      "id": "687ca103ea37a099163295a8",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 154",
+      "amount": 8075419,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 36248196,
+      "date": "2025-04-08T02:19:43.397Z"
+    },
+    {
+      "id": "687ca103ea37a099163295aa",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 156",
+      "amount": 1444232,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 35530088,
+      "date": "2025-04-06T19:05:55.035Z"
+    },
+    {
+      "id": "687ca103ea37a099163295b5",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 167",
+      "amount": 7061412,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 48066041,
+      "date": "2025-03-31T04:19:36.994Z"
+    },
+    {
+      "id": "687ca103ea37a099163295bf",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 177",
+      "amount": 9615374,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 45244191,
+      "date": "2025-03-25T06:06:44.244Z"
+    },
+    {
+      "id": "687ca103ea37a099163295c3",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 181",
+      "amount": 8663984,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 32997859,
+      "date": "2025-03-22T12:41:25.492Z"
+    },
+    {
+      "id": "687ca103ea37a099163295ea",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 220",
+      "amount": 3054295,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 94460699,
+      "date": "2025-02-25T04:13:47.731Z"
+    },
+    {
+      "id": "687ca103ea37a099163295dc",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 206",
+      "amount": 1921346,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 68857060,
+      "date": "2025-03-06T01:03:40.075Z"
+    },
+    {
+      "id": "687ca103ea37a099163295cf",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 193",
+      "amount": 7578439,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 69995890,
+      "date": "2025-03-14T19:03:35.896Z"
+    },
+    {
+      "id": "687ca103ea37a099163295d8",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 202",
+      "amount": 4394345,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 75224597,
+      "date": "2025-03-08T14:54:10.713Z"
+    },
+    {
+      "id": "687ca103ea37a099163295d2",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 196",
+      "amount": 2344473,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 67150634,
+      "date": "2025-03-12T06:16:47.935Z"
+    },
+    {
+      "id": "687ca103ea37a099163295e0",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 210",
+      "amount": 2502428,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 82896253,
+      "date": "2025-03-04T04:10:32.743Z"
+    },
+    {
+      "id": "687ca103ea37a099163295e5",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 215",
+      "amount": 8454804,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 73480657,
+      "date": "2025-02-28T12:18:09.386Z"
+    },
+    {
+      "id": "687ca103ea37a099163295e8",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 218",
+      "amount": 6777778,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 89572981,
+      "date": "2025-02-26T14:54:38.438Z"
+    },
+    {
+      "id": "687ca103ea37a099163295e9",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 219",
+      "amount": 7942013,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 97514994,
+      "date": "2025-02-25T16:59:04.963Z"
+    },
+    {
+      "id": "687ca103ea37a099163295ef",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 225",
+      "amount": 2566673,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 81202139,
+      "date": "2025-02-22T02:43:11.264Z"
+    },
+    {
+      "id": "687ca103ea37a099163295ff",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 241",
+      "amount": 2579390,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 99223276,
+      "date": "2025-02-11T09:22:18.482Z"
+    },
+    {
+      "id": "687ca103ea37a0991632960f",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 257",
+      "amount": 2670736,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 84510225,
+      "date": "2025-01-31T22:40:48.878Z"
+    },
+    {
+      "id": "687ca103ea37a09916329615",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 263",
+      "amount": 4192933,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 94307471,
+      "date": "2025-01-27T23:41:23.435Z"
+    },
+    {
+      "id": "687ca103ea37a09916329619",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 267",
+      "amount": 9376304,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 73756962,
+      "date": "2025-01-25T07:55:29.279Z"
+    },
+    {
+      "id": "687ca103ea37a09916329620",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 274",
+      "amount": 4784897,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 77997765,
+      "date": "2025-01-20T20:59:34.104Z"
+    },
+    {
+      "id": "687ca103ea37a099163295fc",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 238",
+      "amount": 605015,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 110945622,
+      "date": "2025-02-13T05:36:27.466Z"
+    },
+    {
+      "id": "687ca103ea37a09916329602",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 244",
+      "amount": 2368139,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 90096524,
+      "date": "2025-02-09T15:23:06.984Z"
+    },
+    {
+      "id": "687ca103ea37a09916329603",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 245",
+      "amount": 8561300,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 98657824,
+      "date": "2025-02-09T01:09:06.569Z"
+    },
+    {
+      "id": "687ca103ea37a09916329609",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 251",
+      "amount": 7710538,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 81560139,
+      "date": "2025-02-05T00:27:57.264Z"
+    },
+    {
+      "id": "687ca103ea37a0991632961d",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 271",
+      "amount": 8313920,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 69247052,
+      "date": "2025-01-22T16:38:31.348Z"
+    },
+    {
+      "id": "687ca103ea37a099163295e2",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 212",
+      "amount": 8033058,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 75866908,
+      "date": "2025-03-02T18:32:02.694Z"
+    },
+    {
+      "id": "687ca103ea37a099163295e3",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 213",
+      "amount": 1120770,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 74746138,
+      "date": "2025-03-02T03:08:21.035Z"
+    },
+    {
+      "id": "687ca103ea37a099163295eb",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 221",
+      "amount": 1339276,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 93121423,
+      "date": "2025-02-24T15:19:50.528Z"
+    },
+    {
+      "id": "687ca103ea37a099163295f0",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 226",
+      "amount": 1069624,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 80132515,
+      "date": "2025-02-21T09:47:42.706Z"
+    },
+    {
+      "id": "687ca103ea37a099163295f8",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 234",
+      "amount": 5195848,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 100867889,
+      "date": "2025-02-16T02:29:42.827Z"
+    },
+    {
+      "id": "687ca103ea37a09916329601",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 243",
+      "amount": 5866808,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 87728385,
+      "date": "2025-02-10T00:22:38.124Z"
+    },
+    {
+      "id": "687ca103ea37a09916329606",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 248",
+      "amount": 6374559,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 92630591,
+      "date": "2025-02-07T05:35:18.491Z"
+    },
+    {
+      "id": "687ca103ea37a09916329608",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 250",
+      "amount": 8476250,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 89270677,
+      "date": "2025-02-05T19:17:00.061Z"
+    },
+    {
+      "id": "687ca103ea37a09916329614",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 262",
+      "amount": 5175563,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 90114538,
+      "date": "2025-01-28T21:16:39.923Z"
+    },
+    {
+      "id": "687ca103ea37a099163295da",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 204",
+      "amount": 4046845,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 73296485,
+      "date": "2025-03-07T11:16:21.169Z"
+    },
+    {
+      "id": "687ca103ea37a099163295dd",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 207",
+      "amount": 4208400,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 73065460,
+      "date": "2025-03-05T14:34:53.953Z"
+    },
+    {
+      "id": "687ca103ea37a099163295df",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 209",
+      "amount": 9701078,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 85398681,
+      "date": "2025-03-04T14:56:49.954Z"
+    },
+    {
+      "id": "687ca103ea37a099163295f6",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 232",
+      "amount": 2707092,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 97119492,
+      "date": "2025-02-17T00:08:08.613Z"
+    },
+    {
+      "id": "687ca103ea37a0991632961b",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 269",
+      "amount": 7799042,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 64885256,
+      "date": "2025-01-24T03:33:57.770Z"
+    },
+    {
+      "id": "687ca103ea37a0991632961e",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 272",
+      "amount": 4271067,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 73518119,
+      "date": "2025-01-21T23:16:27.008Z"
+    },
+    {
+      "id": "687ca103ea37a099163295d0",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 194",
+      "amount": 5134177,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 64861713,
+      "date": "2025-03-13T21:51:12.943Z"
+    },
+    {
+      "id": "687ca103ea37a099163295d3",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 197",
+      "amount": 2824809,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 69975443,
+      "date": "2025-03-11T08:04:10.067Z"
+    },
+    {
+      "id": "687ca103ea37a099163295d9",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 203",
+      "amount": 5974957,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 69249640,
+      "date": "2025-03-08T02:29:11.842Z"
+    },
+    {
+      "id": "687ca103ea37a099163295db",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 205",
+      "amount": 2518079,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 70778406,
+      "date": "2025-03-06T13:21:43.214Z"
+    },
+    {
+      "id": "687ca103ea37a099163295e4",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 214",
+      "amount": 9720285,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 65025853,
+      "date": "2025-03-01T06:53:18.513Z"
+    },
+    {
+      "id": "687ca103ea37a099163295f1",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 227",
+      "amount": 803943,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 79328572,
+      "date": "2025-02-20T19:09:57.266Z"
+    },
+    {
+      "id": "687ca103ea37a099163295f3",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 229",
+      "amount": 3509109,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 85920695,
+      "date": "2025-02-19T04:32:13.320Z"
+    },
+    {
+      "id": "687ca103ea37a099163295fb",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 237",
+      "amount": 3580422,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 111550637,
+      "date": "2025-02-13T18:41:47.958Z"
+    },
+    {
+      "id": "687ca103ea37a09916329605",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 247",
+      "amount": 2828600,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 99005150,
+      "date": "2025-02-07T14:10:02.130Z"
+    },
+    {
+      "id": "687ca103ea37a0991632960c",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 254",
+      "amount": 7114426,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 88911859,
+      "date": "2025-02-02T22:46:44.451Z"
+    },
+    {
+      "id": "687ca103ea37a0991632960e",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 256",
+      "amount": 8236302,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 81839489,
+      "date": "2025-02-01T18:46:39.043Z"
+    },
+    {
+      "id": "687ca103ea37a09916329613",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 261",
+      "amount": 4890175,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 95290101,
+      "date": "2025-01-29T12:57:04.772Z"
+    },
+    {
+      "id": "687ca103ea37a09916329617",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 265",
+      "amount": 3306190,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 91464334,
+      "date": "2025-01-26T14:46:02.099Z"
+    },
+    {
+      "id": "687ca103ea37a099163295d1",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 195",
+      "amount": 4633394,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 69495107,
+      "date": "2025-03-12T23:55:19.312Z"
+    },
+    {
+      "id": "687ca103ea37a099163295d5",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 199",
+      "amount": 8461145,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 81832982,
+      "date": "2025-03-10T10:05:08.392Z"
+    },
+    {
+      "id": "687ca103ea37a099163295d4",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 198",
+      "amount": 3396394,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 73371837,
+      "date": "2025-03-10T21:03:23.915Z"
+    },
+    {
+      "id": "687ca103ea37a099163295d7",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 201",
+      "amount": 6014460,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 79618942,
+      "date": "2025-03-09T03:56:42.721Z"
+    },
+    {
+      "id": "687ca103ea37a099163295f2",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 228",
+      "amount": 3083014,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 82411586,
+      "date": "2025-02-20T03:05:04.995Z"
+    },
+    {
+      "id": "687ca103ea37a099163295f4",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 230",
+      "amount": 9173247,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 95093942,
+      "date": "2025-02-18T12:40:32.092Z"
+    },
+    {
+      "id": "687ca103ea37a099163295f5",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 231",
+      "amount": 4732642,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 99826584,
+      "date": "2025-02-17T13:41:25.977Z"
+    },
+    {
+      "id": "687ca103ea37a099163295d6",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 200",
+      "amount": 8228500,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 73604482,
+      "date": "2025-03-09T20:25:23.846Z"
+    },
+    {
+      "id": "687ca103ea37a099163295de",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 208",
+      "amount": 2632143,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 75697603,
+      "date": "2025-03-05T05:51:02.666Z"
+    },
+    {
+      "id": "687ca103ea37a099163295e1",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 211",
+      "amount": 1003713,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 83899966,
+      "date": "2025-03-03T17:06:40.693Z"
+    },
+    {
+      "id": "687ca103ea37a099163295ed",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 223",
+      "amount": 1836007,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 86812393,
+      "date": "2025-02-23T13:09:20.060Z"
+    },
+    {
+      "id": "687ca103ea37a099163295ee",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 224",
+      "amount": 3043581,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 83768812,
+      "date": "2025-02-22T14:11:50.513Z"
+    },
+    {
+      "id": "687ca103ea37a099163295f7",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 233",
+      "amount": 1447451,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 95672041,
+      "date": "2025-02-16T10:59:34.928Z"
+    },
+    {
+      "id": "687ca103ea37a099163295fe",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 240",
+      "amount": 7140133,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 101802666,
+      "date": "2025-02-12T04:31:59.493Z"
+    },
+    {
+      "id": "687ca103ea37a09916329600",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 242",
+      "amount": 5628083,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 93595193,
+      "date": "2025-02-10T19:14:55.124Z"
+    },
+    {
+      "id": "687ca103ea37a09916329607",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 249",
+      "amount": 5116336,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 97746927,
+      "date": "2025-02-06T17:49:10.408Z"
+    },
+    {
+      "id": "687ca103ea37a0991632960a",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 252",
+      "amount": 5481980,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 76078159,
+      "date": "2025-02-04T15:47:51.958Z"
+    },
+    {
+      "id": "687ca103ea37a0991632960d",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 255",
+      "amount": 1163932,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 90075791,
+      "date": "2025-02-02T06:05:58.495Z"
+    },
+    {
+      "id": "687ca103ea37a09916329610",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 258",
+      "amount": 6967035,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 91477260,
+      "date": "2025-01-31T04:45:27.261Z"
+    },
+    {
+      "id": "687ca103ea37a09916329618",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 266",
+      "amount": 8331068,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 83133266,
+      "date": "2025-01-26T03:37:54.142Z"
+    },
+    {
+      "id": "687ca103ea37a0991632961c",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 270",
+      "amount": 3952124,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 60933132,
+      "date": "2025-01-23T09:42:10.981Z"
+    },
+    {
+      "id": "687ca103ea37a099163295e6",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 216",
+      "amount": 4119539,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 77600196,
+      "date": "2025-02-28T02:39:08.690Z"
+    },
+    {
+      "id": "687ca103ea37a099163295e7",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 217",
+      "amount": 5195007,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 82795203,
+      "date": "2025-02-27T14:28:55.000Z"
+    },
+    {
+      "id": "687ca103ea37a099163295ec",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 222",
+      "amount": 8145037,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 84976386,
+      "date": "2025-02-24T06:27:08.741Z"
+    },
+    {
+      "id": "687ca103ea37a099163295f9",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 235",
+      "amount": 11111,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 100856778,
+      "date": "2025-02-15T09:14:45.229Z"
+    },
+    {
+      "id": "687ca103ea37a099163295fa",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 236",
+      "amount": 7113437,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 107970215,
+      "date": "2025-02-14T17:35:50.395Z"
+    },
+    {
+      "id": "687ca103ea37a099163295fd",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 239",
+      "amount": 2002823,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 108942799,
+      "date": "2025-02-12T14:34:44.389Z"
+    },
+    {
+      "id": "687ca103ea37a09916329604",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 246",
+      "amount": 2481274,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 96176550,
+      "date": "2025-02-08T06:00:21.591Z"
+    },
+    {
+      "id": "687ca103ea37a0991632960b",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 253",
+      "amount": 5719274,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 81797433,
+      "date": "2025-02-03T19:46:09.202Z"
+    },
+    {
+      "id": "687ca103ea37a09916329611",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 259",
+      "amount": 2643060,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 88834200,
+      "date": "2025-01-30T13:18:42.139Z"
+    },
+    {
+      "id": "687ca103ea37a09916329612",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 260",
+      "amount": 1565726,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 90399926,
+      "date": "2025-01-30T03:41:26.657Z"
+    },
+    {
+      "id": "687ca103ea37a09916329616",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 264",
+      "amount": 463053,
+      "type": "credit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 94770524,
+      "date": "2025-01-27T09:48:35.245Z"
+    },
+    {
+      "id": "687ca103ea37a0991632961a",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 268",
+      "amount": 1072664,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 72684298,
+      "date": "2025-01-24T17:57:54.704Z"
+    },
+    {
+      "id": "687ca103ea37a0991632961f",
+      "narration": "NIP/KUDA/SAMUEL OLAMIDE/TRANSFER 273",
+      "amount": 305251,
+      "type": "debit",
+      "category": null,
+      "currency": "NGN",
+      "balance": 73212868,
+      "date": "2025-01-21T13:14:00.077Z"
+    }
+  ],
+  "meta": {
+    "total": 274,
+    "page": null,
+    "previous": null,
+    "next": null
+  }
+}
